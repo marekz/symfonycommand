@@ -1,0 +1,6 @@
+<h1>Lista twoich subskrypcji: </h1>
+{% for data in item %}
+    <p>id: {{ data.id }}<br>
+    status: {{ data.status }}<br>
+    Subscription pack: {{ data.subscriptionPack }}</p>
+{% endfor %}
